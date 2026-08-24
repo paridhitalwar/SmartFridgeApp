@@ -1,0 +1,10 @@
+{
+  "name": "smart-fridge-tracker",
+  "version": "1.0.0",
+  "description": "Unified smart fridge tracker app deployment configuration",
+  "scripts": {
+    "postinstall": "npm install --prefix CS633-Team-2 && npm install --prefix backend-src/BackEnd",
+    "build": "cd CS633-Team-2 && npx expo export --platform web",
+    "start": "node backend-src/BackEnd/server.js"
+  }
+}
